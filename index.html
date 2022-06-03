@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style media="screen">
+    body{
+      text-align: center;
+      color : #fcc1ba;
+      /* filter: drop-shadow(8px 8px 10px grey); */
+    }
+    html, body{
+      height: 100%;
+    }
+    .biru-muda{
+      background-color: lightblue;
+    }
+    .kotak-merah{
+      width: 25px;
+      height: 25px;
+      margin: 10px auto;
+      background-color: red;
+    }
+    .kotak-hijau{
+      width: 25px;
+      height: 25px;
+      margin: 10px auto;
+      background-color: green;
+    }
+    .kotak-biru{
+      width: 25px;
+      height: 25px;
+      margin: 10px auto;
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <h1>BERMAIN DENGAN WARNA</h1>
+  <h2>Gerakan Cursormu di bagian {Body}</h2>
+  <button type="submit" name="button">Favorite Color</button>
+  <hr>
+  <h3>change RGB color</h3>
+  <div class="kotak-merah"></div>
+  <input type="range" name="rMerah" value=""  min="0" max="255">
+
+  <div class="kotak-hijau"></div>
+  <input type="range" name="rHijau" value=""  min="0" max="255">
+
+  <div class="kotak-biru"></div>
+  <input type="range" name="rBiru" value=""  min="0" max="255">
+</body>
+<script src="script.js"></script>
+</html>
